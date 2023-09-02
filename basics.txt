@@ -1,0 +1,63 @@
+﻿3.a) how many users?     278858
+3.b) how many books?      270545
+3.c) how many ratings?    1144612
+3.d) histogram of user-ratings <table(num ratings, num users)>
+     (how many users have rated N times? <number>)
++-----+-------+
+| bin | N     |
++-----+-------+
+|   1 | 58966|
+|   2 | 12476|
+|   3 | 6528|
+|   4 | 4248|
+|   5 | 3095|
+|   6 | 2345|
+|   7 | 1706|
+|   8 | 1371|
+|   9 | 1175|
+| 10 | 1049|
+
+
+3.e) histogram of book-ratings <table(num ratings, num users)>
+     (how many books have been rated N times? <number>)
++-----+-------+
+| bin | N     |
++-----+-------+
+|   1 | 196427|
+|   2 | 59508|
+|   3 | 25892|
+|   4 | 14073|
+|   5 | 8981|
+|   6 | 6091|
+|   7 | 4465|
+|   8 | 3267|
+|   9 | 2572|
+|  10| 2143|
+3.f) top-10 rated books?    <table(name,num ratings)>
+   Book.Title                                                                             rank
+   <chr>                                                                                 <int>
+ 1 "Wild Animus"                                                                             1
+ 2 "The Lovely Bones: A Novel"                                                       2
+ 3 "The Da Vinci Code"                                                               3
+ 4 "Divine Secrets of the Ya-Ya Sisterhood: A Novel"                         4
+ 5 "The Red Tent (Bestselling Backlist)"                                                      5
+ 6 "A Painted House"                                                                 6
+ 7 "The Secret Life of Bees"                                                         7
+ 8 "Snow Falling on Cedars"                                                          8
+ 9 "Angels &amp; Demons"                                                             9
+10 "Where the Heart Is (Oprah\"s Book Club (Paperback))"                10
+
+
+3.g) top-10 active users?   <table(name, num ratings)>
+      User.ID                  rank
+     <dbl>                 <int>
+ 1   11676                     1
+ 2  198711                     2
+ 3  153662                    3
+ 4   98391                   4
+ 5   35859                     5
+ 6  212898                     6
+ 7  278418                     7
+ 8   76352                     8
+ 9  110973                     9
+10  235105                    10

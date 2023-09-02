@@ -1,0 +1,235 @@
+﻿6.a) RMSE of the full model UB 1.9, IB 1.86
+6.b) histogram of RMSE <table(bin, num occurrences UBCF, num occurrences IBCF)>
+RMSE  N.UBCF  N.IBCF
+0.00         9             43
+0.25        13             3
+0.50        28             7        
+0.75        46             41        
+1.00        64             6        
+1.25        37             16         
+1.50        85             6         
+1.75        47             31        
+2.00        42             14          
+2.25        36             7        
+2.50        24             4         
+2.75        21             12
+3.00        14             0
+3.25         7             2
+3.50         7             5        
+3.75         2             5
+4.00         3             0
+4.25         3             1
+4.50         2             0     
+
+
+6.c) Top-10 recommendations   <table(user,book1,book2,book3, ..., book10)>
+UBCF
+"Clara Callan"        "The Forgetti"        "Miss Wyoming"        "Angelas Ashe"        "Lost Girls"        "Before and A"        "Angelas Ashe"        "Postcards"        "Miss Smillas"        "Red Leaves"
+"259118"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"205383"        NA        NA        NA        NA        NA        NA        9        NA        9        NA
+"110029"        NA        NA        NA        NA        NA        NA        9        NA        NA        NA
+"95903"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"152409"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"131837"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"265620"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"139742"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"119671"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"83443"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"148712"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"197775"        NA        10        NA        NA        NA        NA        NA        NA        NA        NA
+"226616"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"148258"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"139828"        NA        NA        NA        NA        NA        NA        8        NA        NA        NA
+"212142"        NA        NA        NA        NA        NA        NA        8        NA        NA        NA
+"253005"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"83287"        NA        NA        NA        NA        NA        NA        9        NA        NA        NA
+"46293"        NA        8        NA        NA        NA        NA        NA        NA        NA        NA
+"153653"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"6532"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"219301"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"39345"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"128732"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"185308"        NA        9        NA        NA        NA        NA        NA        NA        NA        NA
+"23547"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"204591"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"187904"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"144318"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"97179"        6        NA        NA        6        NA        6        6        6        3        NA
+"264152"        NA        NA        NA        NA        NA        10        NA        NA        NA        NA
+"19493"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"270156"        9        NA        NA        9        NA        10        9        9        10        NA
+"127190"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"278418"        7        NA        NA        7        NA        7        7        7        4        NA
+"65228"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"221870"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"37989"        NA        NA        NA        NA        NA        NA        9        NA        NA        NA
+"185176"        NA        NA        NA        NA        NA        NA        9        NA        NA        NA
+"170077"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"100088"        9        NA        NA        9        NA        9        9        9        8        NA
+"231264"        NA        NA        NA        NA        NA        NA        6        NA        NA        NA
+"143415"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"231993"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"82407"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"236757"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"134005"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"5539"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"256402"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"64535"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"152309"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"266283"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"225763"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"59727"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"57398"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"100578"        NA        NA        NA        NA        NA        NA        8        NA        8        NA
+"152186"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"223431"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"113955"        NA        9        NA        NA        NA        NA        8        NA        NA        NA
+"2313"        NA        NA        NA        NA        NA        NA        7        NA        NA        NA
+"115692"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"70666"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"55799"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"164323"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"52614"        10        9        NA        10        NA        10        10        10        7        NA
+"9856"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"8245"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"197424"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"50823"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"70014"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"136326"        NA        NA        NA        NA        NA        NA        8        NA        NA        NA
+"187517"        NA        NA        NA        NA        NA        NA        8        NA        NA        NA
+"132836"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"173860"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"195469"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"929"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"23511"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"254"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"64310"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"163570"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"33974"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"16009"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"52175"        10        NA        NA        10        NA        10        10        10        7        NA
+"249628"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"196738"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"276641"        NA        NA        NA        NA        NA        NA        7        NA        NA        NA
+"28865"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"35445"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"122793"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"262902"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"76351"        NA        10        NA        NA        NA        NA        NA        NA        NA        NA
+"55927"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"264947"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"184629"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"218608"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"95991"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"252827"        NA        NA        10        NA        NA        NA        8        NA        10        NA
+"245410"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"208671"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"133747"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+
+
+
+
+
+
+IBCF
+"Clara Callan"        "The Forgetti"        "Miss Wyoming"        "Angelas Ashe"        "Lost Girls"        "Before and A"        "Angelas Ashe"        "Postcards"        "Miss Smillas"        "Red Leaves"
+"259118"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"205383"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"110029"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"95903"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"152409"        NA        NA        9        NA        NA        NA        NA        NA        NA        NA
+"131837"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"265620"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"139742"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"119671"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"83443"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"148712"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"197775"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"226616"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"148258"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"139828"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"212142"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"253005"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"83287"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"46293"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"153653"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"6532"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"219301"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"39345"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"128732"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"185308"        NA        NA        7        NA        NA        NA        NA        NA        NA        NA
+"23547"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"204591"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"187904"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"144318"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"97179"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"264152"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"19493"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"270156"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"127190"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"278418"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"65228"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"221870"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"37989"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"185176"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"170077"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"100088"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"231264"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"143415"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"231993"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"82407"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"236757"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"134005"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"5539"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"256402"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"64535"        NA        NA        NA        NA        NA        NA        NA        NA        NA        7
+"152309"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"266283"        NA        NA        NA        NA        NA        NA        NA        NA        NA        9
+"225763"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"59727"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"57398"        NA        NA        NA        NA        8        NA        NA        NA        NA        NA
+"100578"        NA        7        7        NA        NA        NA        NA        NA        NA        9
+"152186"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"223431"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"113955"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"2313"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"115692"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"70666"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"55799"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"164323"        NA        NA        NA        NA        8        NA        NA        NA        NA        NA
+"52614"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"9856"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"8245"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"197424"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"50823"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"70014"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"136326"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"187517"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"132836"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"173860"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"195469"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"929"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"23511"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"254"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"64310"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"163570"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"33974"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"16009"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"52175"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"249628"        NA        NA        NA        NA        NA        NA        NA        NA        NA        8
+"196738"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"276641"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"28865"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"35445"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"122793"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"262902"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"76351"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"55927"        10        NA        NA        10        NA        10        10        10        NA        NA
+"264947"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"184629"        NA        NA        NA        NA        NA        NA        NA        NA        NA        9
+"218608"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"95991"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"252827"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"245410"        NA        NA        NA        NA        NA        NA        NA        NA        NA        7
+"208671"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
+"133747"        NA        NA        NA        NA        NA        NA        NA        NA        NA        NA
